@@ -1,0 +1,47 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+p {
+   position: relative;
+   bottom: 330px;
+   font-size: 2rem;
+   color: rgb(0, 134, 0);
+}
+hr {
+    position:relative;
+    bottom: 350px;
+}
+button {
+background:rgb(1, 245, 1);
+  color:rgb(5, 5, 5);
+  width:100px  10px;
+  margin:5px;
+  cursor: pointer;
+  border: 1px solid #0a0a0a;
+  display: inline-block;
+  border-radius: 0.3em;
+  transition: all 0.2s ease-in-out;
+  box-shadow: 7px 6px 28px 1px rgba(10, 10, 0, 10);  
+}
+ button:active {
+  transform: scale(0.60);
+   /* Кнопака изменяет масштаб */
+ }
+ 
+ label {
+    color: rgb(4, 146, 4);
+    font-size: 25px;
+}
+
+input {
+  color: #222;
+  width: 150px;
+  height: 20px;
+  margin:10px;
+  border-radius: 1em;
+}
+
